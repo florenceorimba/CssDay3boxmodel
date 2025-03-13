@@ -94,7 +94,7 @@ letter-spacing: -.01em;
 line-height: 24px;
 font-weight: 400;
 gap: var(--spacing-2);
-justify-content: flexy-end;
+justify-content: space-between;
 align-items: flex-end;
 display: flex;
 
