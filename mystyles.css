@@ -1,0 +1,103 @@
+.box { /* Task 1:create a box with different border widths and colors */
+    width: 500px;
+    height: 200px;
+    border-width: 15px; /* Change this value */
+    border-style: double;
+    border-color: black; /* Change color */
+    background-color: #F5F5F5;
+    padding: 60px; /* Task 2: Add padding */
+    margin: 10px; /* Task 3: Adjust margin to space elements properly */
+    box-sizing: border-box; /* Task 4: Add box sizing to all elements */
+}
+
+.card { /* Task 5: Create a card-like component with padding margin and a border */
+    color: var(--card);
+    padding: var(--spacing-4);
+    border-left-width: 8px;
+    border-radius: 24px;
+    border-color: hsl(var(--border));
+}
+
+
+.main-card {
+    margin-bottom: 16px;
+    width: 300px;
+    border-radius: 10px; /* Optional for rounded corners */
+    background-color: #D8D8D8;
+}
+
+:root {
+    --border: 0 0% 89.8%;
+    --card: #000;
+    --spacing-2: 8px;
+    --spacing-4: 16px;
+    --name-black-60: rgba(0, 0, 0, .6);
+    --spacing-6: 24px;
+}
+
+*,:after,:before {
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb
+}
+
+.order-number {
+align-items: center;
+display: flex;
+margin-bottom: (var(--spacing-2));
+border-color: hsl(var(--border));
+width: 172.438px
+}
+
+.number {
+font-size: 22px;
+letter-spacing: -.02em;
+line-height: 32px;
+font-weight: 700;
+margin: 0;
+}
+
+h2 {
+display: block;
+margin-block-start;
+margin-block-end;
+margin-inline-start;
+margin-inline-end;
+}
+
+
+.name {
+font-size: 16px;
+color: var(--name-black-60);
+letter-spacing: -.01em;
+line-height: 24px;
+font-weight: 400;
+display: flex;
+margin-bottom: var(--spacing-6);
+border-color: hsl(var(--border));
+}
+
+.service {
+font-size: 16px;
+--tw-text-opacity: 1;
+color: rgb(0 0 0 / var(--tw-text-opacity, 1))
+letter-spacing: -.01em;
+line-height: 24px;
+font-weight: 400;
+display: flex;
+text-align: center;
+}
+
+.time {
+font-size: 16px;
+color: var(--name-black-60);
+letter-spacing: -.01em;
+line-height: 24px;
+font-weight: 400;
+gap: var(--spacing-2);
+justify-content: flexy-end;
+align-items: flex-end;
+display: flex;
+
+}
+
+
