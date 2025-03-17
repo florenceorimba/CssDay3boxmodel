@@ -4,7 +4,7 @@
     border-width: 15px; /* Change this value */
     border-style: double;
     border-color: black; /* Change color */
-    background-color: #F5F5F5;
+    background-color: #FFF5EE;
     padding: 60px; /* Task 2: Add padding */
     margin: 10px; /* Task 3: Adjust margin to space elements properly */
     box-sizing: border-box; /* Task 4: Add box sizing to all elements */
@@ -13,17 +13,28 @@
 .card { /* Task 5: Create a card-like component with padding margin and a border */
     color: var(--card);
     padding: var(--spacing-4);
-    border-left-width: 8px;
+    border-left-width: 5px;
     border-radius: 24px;
+    cursor: pointer;
     border-color: hsl(var(--border));
+background-color: var(--white-background-60);
+width: 100%;
+text-transform: none;
+font-size: 100%;
+-webkit-appearance: button;
 }
 
+.card:hover {
+  background-color: #e7e7e7;
+  color: Black;
+}
 
 .main-card {
     margin-bottom: 16px;
     width: 300px;
     border-radius: 10px; /* Optional for rounded corners */
-    background-color: #D8D8D8;
+color-scheme: light;
+color: var(--card);
 }
 
 :root {
@@ -33,6 +44,7 @@
     --spacing-4: 16px;
     --name-black-60: rgba(0, 0, 0, .6);
     --spacing-6: 24px;
+--white-background-60: hsla(0, 0%, 100%, .6)
 }
 
 *,:after,:before {
@@ -98,6 +110,11 @@ justify-content: space-between;
 align-items: flex-end;
 display: flex;
 
+}
+
+
+body {
+background-color: #fff2f7;
 }
 
 
