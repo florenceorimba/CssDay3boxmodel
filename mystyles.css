@@ -1,3 +1,11 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--bg-white);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
 .box { /* Task 1:create a box with different border widths and colors */
     width: 500px;
     height: 200px;
@@ -11,17 +19,14 @@
 }
 
 .card { /* Task 5: Create a card-like component with padding margin and a border */
-    color: var(--card);
+    
+    background: linear-gradient(to right, #e8e8e8 0%, #f0f0f0 100%);
     padding: var(--spacing-4);
-    border-left-width: 5px;
-    border-radius: 24px;
+    border-left: 8px solid #BEBEBE;
+    border-radius: 15px;
     cursor: pointer;
-    border-color: hsl(var(--border));
-background-color: var(--white-background-60);
-width: 100%;
-text-transform: none;
-font-size: 100%;
--webkit-appearance: button;
+    width: 300px;
+    margin: 10px;
 }
 
 .card:hover {
@@ -29,22 +34,16 @@ font-size: 100%;
   color: Black;
 }
 
-.main-card {
-    margin-bottom: 16px;
-    width: 300px;
-    border-radius: 10px; /* Optional for rounded corners */
-color-scheme: light;
-color: var(--card);
-}
 
 :root {
-    --border: 0 0% 89.8%;
+    --border: #A9A9A9;
     --card: #000;
     --spacing-2: 8px;
     --spacing-4: 16px;
     --name-black-60: rgba(0, 0, 0, .6);
     --spacing-6: 24px;
---white-background-60: hsla(0, 0%, 100%, .6)
+    --white-background-60: hsla(0, 0%, 100%, .6)
+    --bg-white: #FFFFFF;
 }
 
 *,:after,:before {
@@ -57,15 +56,16 @@ align-items: center;
 display: flex;
 margin-bottom: (var(--spacing-2));
 border-color: hsl(var(--border));
-width: 172.438px
+width: 172.438px;
 }
 
 .number {
-font-size: 22px;
-letter-spacing: -.02em;
+font-size: 30px;
+letter-spacing: -.01em;
 line-height: 32px;
 font-weight: 700;
 margin: 0;
+padding-top: 10px;
 }
 
 h2 {
@@ -78,7 +78,7 @@ margin-inline-end;
 
 
 .name {
-font-size: 16px;
+font-size: 18px;
 color: var(--name-black-60);
 letter-spacing: -.01em;
 line-height: 24px;
@@ -100,7 +100,7 @@ text-align: center;
 }
 
 .time {
-font-size: 16px;
+font-size: 18px;
 color: var(--name-black-60);
 letter-spacing: -.01em;
 line-height: 24px;
@@ -112,9 +112,15 @@ display: flex;
 
 }
 
-
-body {
-background-color: #fff2f7;
+.first-heading {
+    
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 
