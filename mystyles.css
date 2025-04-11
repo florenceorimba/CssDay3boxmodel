@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: var(--bg-white);
     margin: 0;
-    padding: 0;
+    padding: 40px;
     font-size: 16px;
 }
 
@@ -16,6 +16,36 @@ body {
     padding: 60px; /* Task 2: Add padding */
     margin: 10px; /* Task 3: Adjust margin to space elements properly */
     box-sizing: border-box; /* Task 4: Add box sizing to all elements */
+}
+.box-x {
+  padding: 20px;
+  background-color: #F0FFFF;
+  width: 500px;
+  text-align: center;
+  height: 350px; 
+  
+  /* Different border widths and colors */
+
+  border-left: 8px solid orange;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+
+.box-border {
+  padding: 20px;
+  background-color: lightgray;
+  width: 300px;
+  text-align: center;
+  height: 200px; 
+  
+  /* Different border widths and colors */
+  border-top: 8px solid violet;
+  border-right: 12px solid green;
+  border-bottom: 6px solid blue;
+  border-left: 2px solid orange;
+
+  margin-bottom: 20px;
 }
 
 .card { /* Task 5: Create a card-like component with padding margin and a border */
