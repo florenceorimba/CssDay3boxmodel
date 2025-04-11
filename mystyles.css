@@ -16,7 +16,12 @@ body {
     padding: 60px; /* Task 2: Add padding */
     margin: 10px; /* Task 3: Adjust margin to space elements properly */
     box-sizing: border-box; /* Task 4: Add box sizing to all elements */
+    border-top: 8px solid red;
+  border-right: 4px dashed green;
+  border-bottom: 6px dotted blue;
+  border-left: 2px double orange;
 }
+
 .box-x {
   padding: 20px;
   background-color: #F0FFFF;
@@ -44,8 +49,15 @@ body {
   border-right: 12px solid green;
   border-bottom: 6px solid blue;
   border-left: 2px solid orange;
-
   margin-bottom: 20px;
+}
+
+/* Task 4: box-sizing example */
+.task4 {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid #333;
+  box-sizing: border-box;
 }
 
 .card { /* Task 5: Create a card-like component with padding margin and a border */
@@ -63,6 +75,7 @@ body {
   background-color: #e7e7e7;
   color: Black;
 }
+
 
 
 :root {
